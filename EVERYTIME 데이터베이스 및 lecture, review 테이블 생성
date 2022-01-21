@@ -5,7 +5,7 @@ CREATE TABLE lecture(
     강의명 VARCHAR(100) NOT NULL,
     교수명 VARCHAR(100) NOT NULL,
     PRIMARY KEY(id));
-    CREATE TABLE review(
+CREATE TABLE review(
     id INT(11) NOT NULL,
     과제 VARCHAR(100) NOT NULL,
     조모임 VARCHAR(100) NOT NULL,
