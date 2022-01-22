@@ -1,7 +1,7 @@
 CREATE DATABASE EVERYTIME;
 USE EVERYTIME;
 CREATE TABLE lecture(
-    id INT(11) NOT NULL,
+    id INT(11) NOT NULL AUTO_INCREMENT,
     강의명 VARCHAR(100) NOT NULL,
     교수명 VARCHAR(100) NOT NULL,
     PRIMARY KEY(id));
@@ -16,4 +16,3 @@ CREATE TABLE review(
     수강학기 VARCHAR(100) NOT NULL,
     총평 TEXT NOT NULL,
     PRIMARY KEY(id));
-/* lecture와 review의 id는 동일하게 작성할 것 */
