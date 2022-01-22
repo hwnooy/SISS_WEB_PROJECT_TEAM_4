@@ -14,5 +14,4 @@ CREATE TABLE review(
     시험횟수 VARCHAR(100) NOT NULL,
     총점 INT(11) NOT NULL,
     수강학기 VARCHAR(100) NOT NULL,
-    총평 TEXT NOT NULL,
-    PRIMARY KEY(id));
+    총평 TEXT NOT NULL);
